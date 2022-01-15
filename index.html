@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Youth Impact Crucible 2022  </title>
+</head>
+<body>
+
+    
+    <div  class="container py-5">
+        <div  class="row">
+            <div style="border: 3px solid blue;" class="col-lg-5 col-md-8 mx-auto shadow border bg-white p-4 rounded">
+                
+                <h2 class="text-center fw-bold mb-3"><i>QUIZ DATA </i></h2>
+                <form name="google-sheet">
+                    <div id="form_alerts"></div>
+                    <div class="form-group mb-3">
+                        <label for="Name" class="form-label">Name</label>
+                        <input type="text" id="Team name" name=" Name" class="form-control" placeholder="Enter  name" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="email" class="form-label">Team Leader's Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter  email address" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="MCQ SQUARE " class="form-label">MCQ SCORE OUT OF 10</label>
+                        <input type="text" id="MCQ SQUARE" name="MCQ" class="form-control" placeholder="" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Fq" class="form-label">Short Answer Question  1 Mark out of 5</label>
+                        <input type='text' id="Fq" name="Fq" class="form-control" placeholder="" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Sq" class="form-label">Short Answer Question  2 Mark out of 5</label>
+                        <input type='text' id="Sq" name="Sq" class="form-control" placeholder="" required>
+                    </div>
+                    
+
+                    <div class="form-group mb-3">
+                        <label for="Tq" class="form-label">Short Answer Question  3 Mark out of 5</label>
+                        <input id="Tq" name="Tq" class="form-control" placeholder="" rows="10" required>
+                    </div>
+                    
+                    <div class="form-group mb-3">
+                        <label for="fiq" class="form-label">Short Answer Question 5  Mark out of 5</label>
+                        <input id="fiq" name="fiq" class="form-control" placeholder="" rows="10" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Siq" class="form-label">Short Answer Question  6 Mark out of 5</label>
+                        <input id="Siq" name="Siq" class="form-control" placeholder="" rows="10" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Sev" class="form-label">Short Answer Question  7 Mark out of 5</label>
+                        <input id="Sev" name="Sev" class="form-control" placeholder="" rows="10" required>
+                    </div>
+
+                    
+                    
+                    <div>
+                        <button class="btn btn-primary me-2" type="submit" >Submit</button>
+                        <button class="btn btn-danger" type="reset">Reset the form!</button>
+                    </div>
+                    
+                    <div id="btom">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script  type="module" src="code.js"></script>
+    
+</body>
+</html>
